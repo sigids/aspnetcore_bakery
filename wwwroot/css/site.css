@@ -1,6 +1,10 @@
 ﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
 
+a.navbar-nav {
+  justify-content: flex-end;
+}
+
 a.navbar-brand {
   white-space: normal;
   text-align: center;
@@ -23,6 +27,69 @@ a {
   background-color: #1b6ec2;
   border-color: #1861ac;
 }
+
+/* Image, random show as feature product
+-------------------------------------- */
+
+body{
+  color: #696969;
+}
+a:link {
+  color: #3b3420;
+  text-decoration: none;
+}
+a:visited {
+  color: #3b3420;
+  text-decoration: none;
+}
+a:hover {
+  color: #a52f09;
+  text-decoration: none;
+}
+a:active {
+  color: #a52f09;
+}
+a.order-button, a.order-button:hover{
+  color: #fdfcf7;
+}
+.productInfo, .action{
+  max-width: 200px;
+}
+p{
+  font-size: 0.8rem;
+}
+#orderProcess {
+  list-style: none;
+  padding: 0;
+  clear: both;
+}
+#orderProcess li {
+  color: #696969;
+  display: inline;
+  font-size: 1.2em;
+  margin-right: 15px;
+  padding: 3px 0px 0px 5px;
+}
+.step-number {
+    background-color: #edece8;
+    border: 1px solid #e6e4d9;
+    font-size: 1.5em;
+    margin-right: 5px;
+    padding: 3px 10px;
+}
+.current .step-number {
+    background-color: #a52f09;
+    border-color: #712107;
+    color: #fefefe;
+} 
+.orderPageList{
+    padding-inline-start: 20px;
+}
+.actions .order-button{
+  margin-left:20px;
+}
+
+
 
 /* Sticky footer styles
 -------------------------------------------------- */
